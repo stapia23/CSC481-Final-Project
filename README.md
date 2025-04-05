@@ -1,4 +1,4 @@
-# Car Parking Lot Smart Inventory Manager 🚗📱
+# Car Parking Lot Smart Inventory Manager
 
 A mobile-first web app to help car warehouses manage inventory based on vehicle size, arrival date, and pickup schedule. Built using React.js and Firebase.
 
