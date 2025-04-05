@@ -31,12 +31,12 @@ function App() {
       {user ? (
         <div>
           <AddVehicle />  {/* Show vehicle management when logged in */}
-          <SignOut />     {/* Sign-out button */}
+          <SignOut />
         </div>
       ) : (
         <div>
-          <SignIn />     {/* Show SignIn */}
-          <SignUp />     {/* Show SignUp  */}
+          <SignIn />
+          <SignUp />
         </div>
       )}
     </div>
