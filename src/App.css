@@ -11,6 +11,7 @@
 h1 {
   color: #333;
   margin-bottom: 20px;
+  font-size: 2.5rem;
 }
 
 /* Form styles */
@@ -19,7 +20,7 @@ input {
   margin: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  width: 200px;
+  width: 250px;
 }
 
 button {
@@ -29,18 +30,59 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 250px;
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
+/* Google Sign-In Button */
+.google-btn {
+  background-color: #db4437;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.google-btn:hover {
+  background-color: #c1351d;
+}
+
+/* Sign-In and Sign-Up forms */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
 div {
   margin-top: 20px;
 }
 
-/* Form titles */
-h2 {
-  margin-bottom: 15px;
-  font-size: 1.5rem;
+/* SignOut Button */
+.signout-btn {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.signout-btn:hover {
+  background-color: #e53e3e;
 }
